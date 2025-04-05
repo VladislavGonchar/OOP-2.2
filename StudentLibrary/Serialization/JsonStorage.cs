@@ -8,7 +8,7 @@ namespace StudentLibrary.Serialization
 {
     public static class JsonStorage
     {
-        // Заміни цей рядок на абсолютний шлях
+        
         private const string FileName = @"C:\Users\vladg\source\repos\StudentManagerSolution\students.json";
 
         public static void Save(List<Student> students)

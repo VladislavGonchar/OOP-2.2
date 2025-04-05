@@ -1,22 +1,112 @@
 [
   {
-    "FirstName": "Владислав",
-    "LastName": "Гончар",
-    "BirthDate": "2025-04-05",
+    "FirstName": "Дмитро",
+    "LastName": "Ткаченко",
+    "BirthDate": "2004-06-15",
     "Level": "Бакалавр",
     "Exams": [
       {
-        "Subject": "321313213",
-        "Grade": 100,
-        "ExamDate": "2025-04-05"
+        "Subject": "Фізика",
+        "Grade": 77,
+        "ExamDate": "2024-09-12"
+      },
+      {
+        "Subject": "Фізика",
+        "Grade": 62,
+        "ExamDate": "2024-12-28"
       }
     ]
   },
   {
-    "FirstName": "3213",
-    "LastName": "3213",
-    "BirthDate": "2025-04-05",
-    "Level": "Бакалавр",
-    "Exams": []
+    "FirstName": "Дмитро",
+    "LastName": "Коваль",
+    "BirthDate": "2003-06-30",
+    "Level": "Спеціаліст",
+    "Exams": [
+      {
+        "Subject": "Фізика",
+        "Grade": 67,
+        "ExamDate": "2024-12-12"
+      },
+      {
+        "Subject": "Математика",
+        "Grade": 87,
+        "ExamDate": "2025-01-03"
+      },
+      {
+        "Subject": "Фізика",
+        "Grade": 88,
+        "ExamDate": "2025-01-19"
+      }
+    ]
+  },
+  {
+    "FirstName": "Олена",
+    "LastName": "Бондар",
+    "BirthDate": "2004-05-23",
+    "Level": "Спеціаліст",
+    "Exams": [
+      {
+        "Subject": "Фізика",
+        "Grade": 89,
+        "ExamDate": "2025-01-02"
+      },
+      {
+        "Subject": "Англійська",
+        "Grade": 73,
+        "ExamDate": "2024-12-23"
+      },
+      {
+        "Subject": "Математика",
+        "Grade": 81,
+        "ExamDate": "2025-03-09"
+      }
+    ]
+  },
+  {
+    "FirstName": "Олена",
+    "LastName": "Шевченко",
+    "BirthDate": "2006-02-26",
+    "Level": "Спеціаліст",
+    "Exams": [
+      {
+        "Subject": "Математика",
+        "Grade": 84,
+        "ExamDate": "2024-08-16"
+      },
+      {
+        "Subject": "Фізика",
+        "Grade": 97,
+        "ExamDate": "2024-11-14"
+      },
+      {
+        "Subject": "Англійська",
+        "Grade": 65,
+        "ExamDate": "2024-06-16"
+      }
+    ]
+  },
+  {
+    "FirstName": "Дмитро",
+    "LastName": "Коваль",
+    "BirthDate": "2001-01-15",
+    "Level": "Магістр",
+    "Exams": [
+      {
+        "Subject": "Хімія",
+        "Grade": 77,
+        "ExamDate": "2025-02-22"
+      },
+      {
+        "Subject": "Фізика",
+        "Grade": 82,
+        "ExamDate": "2025-02-03"
+      },
+      {
+        "Subject": "Математика",
+        "Grade": 74,
+        "ExamDate": "2025-01-06"
+      }
+    ]
   }
 ]
