@@ -8,11 +8,6 @@ namespace StudentApp
     {
         public Student Student { get; private set; }
 
-        private ListBox listBoxExams;
-        private Button buttonAddExam;
-        private Button buttonEditExam;
-        private Button buttonDeleteExam;
-
         public StudentForm(Student student = null)
         {
             InitializeComponent();
@@ -34,7 +29,6 @@ namespace StudentApp
                 Student = new Student();
             }
 
-            InitializeExamControls(); // Додаємо управління для іспитів
             UpdateExamList(); // Оновлюємо список іспитів
         }
 
@@ -62,54 +56,6 @@ namespace StudentApp
 
             DialogResult = DialogResult.OK;
             Close();
-        }
-
-        // --------------------- Елементи управління іспитами ---------------------
-
-        private void InitializeExamControls()
-        {
-            // ListBox для іспитів
-            listBoxExams = new ListBox
-            {
-                Top = 200,
-                Left = 20,
-                Width = 300,
-                Height = 100
-            };
-            Controls.Add(listBoxExams);
-
-            // Кнопка додати
-            buttonAddExam = new Button
-            {
-                Text = "Додати іспит",
-                Top = listBoxExams.Bottom + 10,
-                Left = listBoxExams.Left,
-                Width = 90
-            };
-            buttonAddExam.Click += buttonAddExam_Click;
-            Controls.Add(buttonAddExam);
-
-            // Кнопка редагувати
-            buttonEditExam = new Button
-            {
-                Text = "Редагувати",
-                Top = listBoxExams.Bottom + 10,
-                Left = buttonAddExam.Right + 10,
-                Width = 90
-            };
-            buttonEditExam.Click += buttonEditExam_Click;
-            Controls.Add(buttonEditExam);
-
-            // Кнопка видалити
-            buttonDeleteExam = new Button
-            {
-                Text = "Видалити",
-                Top = listBoxExams.Bottom + 10,
-                Left = buttonEditExam.Right + 10,
-                Width = 90
-            };
-            buttonDeleteExam.Click += buttonDeleteExam_Click;
-            Controls.Add(buttonDeleteExam);
         }
 
         private void UpdateExamList()
