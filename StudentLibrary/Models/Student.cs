@@ -1,6 +1,6 @@
-﻿// Class: Student (add IComparable, ICloneable)
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace StudentLibrary.Models
 {
@@ -11,7 +11,8 @@ namespace StudentLibrary.Models
 
         public override string ToString()
         {
-            return $"{FirstName} {LastName} - {Level} ({Exams.Count} іспитів)";
+            double averageGrade = Exams.Count > 0 ? Exams.Average(e => e.Grade) : 0;
+            return $"{FirstName} {LastName} - {Level} ({Exams.Count} іспитів, середній бал: {averageGrade:F2})";
         }
 
         public int CompareTo(object obj)

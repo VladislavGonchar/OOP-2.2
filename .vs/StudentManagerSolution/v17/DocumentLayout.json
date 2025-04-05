@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E769BF0-E7E5-40BF-AC2B-7215DF4CA538}|StudentApp\\StudentApp.csproj|c:\\users\\vladg\\source\\repos\\studentmanagersolution\\studentapp\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E769BF0-E7E5-40BF-AC2B-7215DF4CA538}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1200591-73EA-4891-860B-C3857DC37C89}|StudentLibrary\\StudentLibrary.csproj|c:\\users\\vladg\\source\\repos\\studentmanagersolution\\studentlibrary\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1200591-73EA-4891-860B-C3857DC37C89}|StudentLibrary\\StudentLibrary.csproj|solutionrelative:studentlibrary\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E769BF0-E7E5-40BF-AC2B-7215DF4CA538}|StudentApp\\StudentApp.csproj|c:\\users\\vladg\\source\\repos\\studentmanagersolution\\studentapp\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2E769BF0-E7E5-40BF-AC2B-7215DF4CA538}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{281C818A-C522-49F8-92BF-F311EBE555B9}|StudentConsoleApp\\StudentConsoleApp.csproj|c:\\users\\vladg\\source\\repos\\studentmanagersolution\\studentconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{281C818A-C522-49F8-92BF-F311EBE555B9}|StudentConsoleApp\\StudentConsoleApp.csproj|solutionrelative:studentconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E769BF0-E7E5-40BF-AC2B-7215DF4CA538}|StudentApp\\StudentApp.csproj|c:\\users\\vladg\\source\\repos\\studentmanagersolution\\studentapp\\studentform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E769BF0-E7E5-40BF-AC2B-7215DF4CA538}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\studentform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\students.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:students.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1200591-73EA-4891-860B-C3857DC37C89}|StudentLibrary\\StudentLibrary.csproj|c:\\users\\vladg\\source\\repos\\studentmanagersolution\\studentlibrary\\serialization\\jsonstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C1200591-73EA-4891-860B-C3857DC37C89}|StudentLibrary\\StudentLibrary.csproj|c:\\users\\vladg\\source\\repos\\studentmanagersolution\\studentlibrary\\models\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1200591-73EA-4891-860B-C3857DC37C89}|StudentLibrary\\StudentLibrary.csproj|solutionrelative:studentlibrary\\models\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1200591-73EA-4891-860B-C3857DC37C89}|StudentLibrary\\StudentLibrary.csproj|c:\\users\\vladg\\source\\repos\\studentmanagersolution\\studentlibrary\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1200591-73EA-4891-860B-C3857DC37C89}|StudentLibrary\\StudentLibrary.csproj|solutionrelative:studentlibrary\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1200591-73EA-4891-860B-C3857DC37C89}|StudentLibrary\\StudentLibrary.csproj|c:\\users\\vladg\\source\\repos\\studentmanagersolution\\studentlibrary\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,8 +47,20 @@
       "RelativeMoniker": "D:0:0:{C1200591-73EA-4891-860B-C3857DC37C89}|StudentLibrary\\StudentLibrary.csproj|solutionrelative:studentlibrary\\models\\converters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{281C818A-C522-49F8-92BF-F311EBE555B9}|StudentConsoleApp\\StudentConsoleApp.csproj|c:\\users\\vladg\\source\\repos\\studentmanagersolution\\studentconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{281C818A-C522-49F8-92BF-F311EBE555B9}|StudentConsoleApp\\StudentConsoleApp.csproj|solutionrelative:studentconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E769BF0-E7E5-40BF-AC2B-7215DF4CA538}|StudentApp\\StudentApp.csproj|c:\\users\\vladg\\source\\repos\\studentmanagersolution\\studentapp\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E769BF0-E7E5-40BF-AC2B-7215DF4CA538}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E769BF0-E7E5-40BF-AC2B-7215DF4CA538}|StudentApp\\StudentApp.csproj|c:\\users\\vladg\\source\\repos\\studentmanagersolution\\studentapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E769BF0-E7E5-40BF-AC2B-7215DF4CA538}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E769BF0-E7E5-40BF-AC2B-7215DF4CA538}|StudentApp\\StudentApp.csproj|c:\\users\\vladg\\source\\repos\\studentmanagersolution\\studentapp\\examform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E769BF0-E7E5-40BF-AC2B-7215DF4CA538}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\examform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E769BF0-E7E5-40BF-AC2B-7215DF4CA538}|StudentApp\\StudentApp.csproj|C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\studentapp\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E769BF0-E7E5-40BF-AC2B-7215DF4CA538}|StudentApp\\StudentApp.csproj|solutionrelative:studentapp\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,57 +78,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentApp\\StudentForm.cs",
-              "RelativeDocumentMoniker": "StudentApp\\StudentForm.cs",
-              "ToolTip": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentApp\\StudentForm.cs [Design]",
-              "RelativeToolTip": "StudentApp\\StudentForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T09:04:19.141Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentApp\\StudentForm.Designer.cs",
-              "RelativeDocumentMoniker": "StudentApp\\StudentForm.Designer.cs",
-              "ToolTip": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentApp\\StudentForm.Designer.cs",
-              "RelativeToolTip": "StudentApp\\StudentForm.Designer.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA7wKUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T09:02:35.235Z",
+              "DocumentIndex": 3,
+              "Title": "students.json",
+              "DocumentMoniker": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\students.json",
+              "RelativeDocumentMoniker": "students.json",
+              "ToolTip": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\students.json",
+              "RelativeToolTip": "students.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-05T09:10:20.445Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StudentForm.cs",
-              "DocumentMoniker": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentApp\\StudentForm.cs",
-              "RelativeDocumentMoniker": "StudentApp\\StudentForm.cs",
-              "ToolTip": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentApp\\StudentForm.cs",
-              "RelativeToolTip": "StudentApp\\StudentForm.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAADwv2YAAAAAAAAAAAAAAA==",
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentLibrary\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "StudentLibrary\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentLibrary\\Models\\Student.cs",
+              "RelativeToolTip": "StudentLibrary\\Models\\Student.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T08:59:51.436Z",
+              "WhenOpened": "2025-04-04T17:14:59.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JsonStorage.cs",
-              "DocumentMoniker": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentLibrary\\Serialization\\JsonStorage.cs",
-              "RelativeDocumentMoniker": "StudentLibrary\\Serialization\\JsonStorage.cs",
-              "ToolTip": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentLibrary\\Serialization\\JsonStorage.cs",
-              "RelativeToolTip": "StudentLibrary\\Serialization\\JsonStorage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:15:17.806Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "StudentDTO.cs",
               "DocumentMoniker": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentLibrary\\Models\\StudentDTO.cs",
               "RelativeDocumentMoniker": "StudentLibrary\\Models\\StudentDTO.cs",
@@ -124,43 +112,21 @@
               "RelativeToolTip": "StudentLibrary\\Models\\StudentDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:15:04.33Z"
+              "WhenOpened": "2025-04-04T17:15:04.33Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentLibrary\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "StudentLibrary\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentLibrary\\Models\\Student.cs",
-              "RelativeToolTip": "StudentLibrary\\Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAiwCAAAAABAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "JsonStorage.cs",
+              "DocumentMoniker": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentLibrary\\Serialization\\JsonStorage.cs",
+              "RelativeDocumentMoniker": "StudentLibrary\\Serialization\\JsonStorage.cs",
+              "ToolTip": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentLibrary\\Serialization\\JsonStorage.cs",
+              "RelativeToolTip": "StudentLibrary\\Serialization\\JsonStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:14:59.938Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentLibrary\\Models\\Person.cs",
-              "RelativeDocumentMoniker": "StudentLibrary\\Models\\Person.cs",
-              "ToolTip": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentLibrary\\Models\\Person.cs",
-              "RelativeToolTip": "StudentLibrary\\Models\\Person.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAiwA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:14:46.762Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ExamDTO.cs",
-              "DocumentMoniker": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentLibrary\\Models\\ExamDTO.cs",
-              "RelativeDocumentMoniker": "StudentLibrary\\Models\\ExamDTO.cs",
-              "ToolTip": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentLibrary\\Models\\ExamDTO.cs",
-              "RelativeToolTip": "StudentLibrary\\Models\\ExamDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:14:31.52Z"
+              "WhenOpened": "2025-04-04T17:15:17.806Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -172,7 +138,8 @@
               "RelativeToolTip": "StudentLibrary\\Models\\Exam.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:14:25.137Z"
+              "WhenOpened": "2025-04-04T17:14:25.137Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -184,19 +151,8 @@
               "RelativeToolTip": "StudentLibrary\\Models\\EducationLevel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:13:59.717Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentConsoleApp\\Program.cs",
-              "RelativeDocumentMoniker": "StudentConsoleApp\\Program.cs",
-              "ToolTip": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentConsoleApp\\Program.cs",
-              "RelativeToolTip": "StudentConsoleApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAgwB4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:12:21.843Z"
+              "WhenOpened": "2025-04-04T17:13:59.717Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -206,9 +162,113 @@
               "RelativeDocumentMoniker": "StudentLibrary\\Models\\Converters.cs",
               "ToolTip": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentLibrary\\Models\\Converters.cs",
               "RelativeToolTip": "StudentLibrary\\Models\\Converters.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAwwDYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwDYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:10:46.508Z"
+              "WhenOpened": "2025-04-04T17:10:46.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentConsoleApp\\Program.cs",
+              "RelativeDocumentMoniker": "StudentConsoleApp\\Program.cs",
+              "ToolTip": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentConsoleApp\\Program.cs",
+              "RelativeToolTip": "StudentConsoleApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T17:12:21.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StudentForm.cs",
+              "DocumentMoniker": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentApp\\StudentForm.cs",
+              "RelativeDocumentMoniker": "StudentApp\\StudentForm.cs",
+              "ToolTip": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentApp\\StudentForm.cs",
+              "RelativeToolTip": "StudentApp\\StudentForm.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAuwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T08:59:51.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentApp\\MainForm.cs",
+              "RelativeDocumentMoniker": "StudentApp\\MainForm.cs",
+              "ToolTip": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentApp\\MainForm.cs",
+              "RelativeToolTip": "StudentApp\\MainForm.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAwGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T09:09:13.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ExamForm.cs",
+              "DocumentMoniker": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentApp\\ExamForm.cs",
+              "RelativeDocumentMoniker": "StudentApp\\ExamForm.cs",
+              "ToolTip": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentApp\\ExamForm.cs",
+              "RelativeToolTip": "StudentApp\\ExamForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T09:09:07.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentApp\\StudentForm.Designer.cs",
+              "RelativeDocumentMoniker": "StudentApp\\StudentForm.Designer.cs",
+              "ToolTip": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentApp\\StudentForm.Designer.cs",
+              "RelativeToolTip": "StudentApp\\StudentForm.Designer.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwKUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T09:02:35.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentLibrary\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "StudentLibrary\\Models\\Person.cs",
+              "ToolTip": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentLibrary\\Models\\Person.cs",
+              "RelativeToolTip": "StudentLibrary\\Models\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T17:14:46.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExamDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentLibrary\\Models\\ExamDTO.cs",
+              "RelativeDocumentMoniker": "StudentLibrary\\Models\\ExamDTO.cs",
+              "ToolTip": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentLibrary\\Models\\ExamDTO.cs",
+              "RelativeToolTip": "StudentLibrary\\Models\\ExamDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T17:14:31.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StudentForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentApp\\StudentForm.cs",
+              "RelativeDocumentMoniker": "StudentApp\\StudentForm.cs",
+              "ToolTip": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentApp\\StudentForm.cs [Design]",
+              "RelativeToolTip": "StudentApp\\StudentForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T09:04:19.141Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
