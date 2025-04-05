@@ -1,5 +1,4 @@
-﻿// Class: Exam (add IComparable, ICloneable)
-using System;
+﻿using System;
 
 namespace StudentLibrary.Models
 {
@@ -27,7 +26,28 @@ namespace StudentLibrary.Models
 
         public object Clone()
         {
-            return this.MemberwiseClone();
+            return new Exam
+            {
+                Subject = this.Subject,
+                Grade = this.Grade,
+                ExamDate = this.ExamDate
+            };
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (obj is Exam other)
+            {
+                return Subject == other.Subject &&
+                       Grade == other.Grade &&
+                       ExamDate == other.ExamDate;
+            }
+            return false;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Subject, Grade, ExamDate);
         }
     }
 }

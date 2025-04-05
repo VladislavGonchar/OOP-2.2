@@ -11,5 +11,12 @@
         "ExamDate": "2025-04-05"
       }
     ]
+  },
+  {
+    "FirstName": "3213",
+    "LastName": "3213",
+    "BirthDate": "2025-04-05",
+    "Level": "Бакалавр",
+    "Exams": []
   }
 ]
