@@ -1,19 +1,12 @@
 [
   {
-    "FirstName": "3213",
-    "LastName": "3213",
-    "BirthDate": "2025-04-04",
-    "Level": "Спеціаліст",
-    "Exams": []
-  },
-  {
-    "FirstName": "3213",
-    "LastName": "3213",
+    "FirstName": "Владислав",
+    "LastName": "Гончар",
     "BirthDate": "2025-04-05",
-    "Level": "Спеціаліст",
+    "Level": "Бакалавр",
     "Exams": [
       {
-        "Subject": "3213",
+        "Subject": "321313213",
         "Grade": 100,
         "ExamDate": "2025-04-05"
       }

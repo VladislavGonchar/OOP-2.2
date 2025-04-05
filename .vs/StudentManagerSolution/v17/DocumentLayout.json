@@ -86,8 +86,7 @@
               "RelativeToolTip": "students.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-05T09:10:20.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T09:10:20.445Z"
             },
             {
               "$type": "Document",
@@ -112,8 +111,7 @@
               "RelativeToolTip": "StudentLibrary\\Models\\StudentDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:15:04.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T17:15:04.33Z"
             },
             {
               "$type": "Document",
@@ -125,8 +123,7 @@
               "RelativeToolTip": "StudentLibrary\\Serialization\\JsonStorage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:15:17.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T17:15:17.806Z"
             },
             {
               "$type": "Document",
@@ -138,8 +135,7 @@
               "RelativeToolTip": "StudentLibrary\\Models\\Exam.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:14:25.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T17:14:25.137Z"
             },
             {
               "$type": "Document",
@@ -151,8 +147,7 @@
               "RelativeToolTip": "StudentLibrary\\Models\\EducationLevel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:13:59.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T17:13:59.717Z"
             },
             {
               "$type": "Document",
@@ -164,8 +159,7 @@
               "RelativeToolTip": "StudentLibrary\\Models\\Converters.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAuwDYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:10:46.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T17:10:46.508Z"
             },
             {
               "$type": "Document",
@@ -177,8 +171,7 @@
               "RelativeToolTip": "StudentConsoleApp\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:12:21.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T17:12:21.843Z"
             },
             {
               "$type": "Document",
@@ -203,8 +196,7 @@
               "RelativeToolTip": "StudentApp\\MainForm.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAAAAwGwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T09:09:13.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T09:09:13.038Z"
             },
             {
               "$type": "Document",
@@ -216,8 +208,7 @@
               "RelativeToolTip": "StudentApp\\ExamForm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T09:09:07.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T09:09:07.614Z"
             },
             {
               "$type": "Document",
@@ -229,8 +220,7 @@
               "RelativeToolTip": "StudentApp\\StudentForm.Designer.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAkwKUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T09:02:35.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T09:02:35.235Z"
             },
             {
               "$type": "Document",
@@ -242,8 +232,7 @@
               "RelativeToolTip": "StudentLibrary\\Models\\Person.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:14:46.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T17:14:46.762Z"
             },
             {
               "$type": "Document",
@@ -255,8 +244,7 @@
               "RelativeToolTip": "StudentLibrary\\Models\\ExamDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:14:31.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T17:14:31.52Z"
             },
             {
               "$type": "Document",
@@ -267,8 +255,7 @@
               "ToolTip": "C:\\Users\\vladg\\source\\repos\\StudentManagerSolution\\StudentApp\\StudentForm.cs [Design]",
               "RelativeToolTip": "StudentApp\\StudentForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T09:04:19.141Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-05T09:04:19.141Z"
             }
           ]
         }
