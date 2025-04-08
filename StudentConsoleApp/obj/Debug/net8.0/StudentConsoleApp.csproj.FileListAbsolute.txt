@@ -17,3 +17,4 @@ C:\Users\vladg\source\repos\StudentManagerSolution\StudentConsoleApp\obj\Debug\n
 C:\Users\vladg\source\repos\StudentManagerSolution\StudentConsoleApp\obj\Debug\net8.0\StudentConsoleApp.pdb
 C:\Users\vladg\source\repos\StudentManagerSolution\StudentConsoleApp\obj\Debug\net8.0\StudentConsoleApp.genruntimeconfig.cache
 C:\Users\vladg\source\repos\StudentManagerSolution\StudentConsoleApp\obj\Debug\net8.0\ref\StudentConsoleApp.dll
+C:\Users\vladg\source\repos\StudentManagerSolution\StudentConsoleApp\obj\Debug\net8.0\StudentConsoleApp.sourcelink.json

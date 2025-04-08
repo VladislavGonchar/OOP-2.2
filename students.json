@@ -1,111 +1,73 @@
 [
   {
-    "FirstName": "Дмитро",
+    "FirstName": "Ігор",
     "LastName": "Ткаченко",
-    "BirthDate": "2004-06-15",
+    "BirthDate": "2001-12-21",
     "Level": "Бакалавр",
     "Exams": [
       {
-        "Subject": "Фізика",
-        "Grade": 77,
-        "ExamDate": "2024-09-12"
-      },
-      {
-        "Subject": "Фізика",
-        "Grade": 62,
-        "ExamDate": "2024-12-28"
+        "Subject": "42434",
+        "Grade": 0,
+        "ExamDate": "2025-04-08"
       }
     ]
   },
   {
     "FirstName": "Дмитро",
-    "LastName": "Коваль",
-    "BirthDate": "2003-06-30",
-    "Level": "Спеціаліст",
-    "Exams": [
-      {
-        "Subject": "Фізика",
-        "Grade": 67,
-        "ExamDate": "2024-12-12"
-      },
-      {
-        "Subject": "Математика",
-        "Grade": 87,
-        "ExamDate": "2025-01-03"
-      },
-      {
-        "Subject": "Фізика",
-        "Grade": 88,
-        "ExamDate": "2025-01-19"
-      }
-    ]
-  },
-  {
-    "FirstName": "Олена",
-    "LastName": "Бондар",
-    "BirthDate": "2004-05-23",
-    "Level": "Спеціаліст",
-    "Exams": [
-      {
-        "Subject": "Фізика",
-        "Grade": 89,
-        "ExamDate": "2025-01-02"
-      },
-      {
-        "Subject": "Англійська",
-        "Grade": 73,
-        "ExamDate": "2024-12-23"
-      },
-      {
-        "Subject": "Математика",
-        "Grade": 81,
-        "ExamDate": "2025-03-09"
-      }
-    ]
-  },
-  {
-    "FirstName": "Олена",
     "LastName": "Шевченко",
-    "BirthDate": "2006-02-26",
-    "Level": "Спеціаліст",
-    "Exams": [
-      {
-        "Subject": "Математика",
-        "Grade": 84,
-        "ExamDate": "2024-08-16"
-      },
-      {
-        "Subject": "Фізика",
-        "Grade": 97,
-        "ExamDate": "2024-11-14"
-      },
-      {
-        "Subject": "Англійська",
-        "Grade": 65,
-        "ExamDate": "2024-06-16"
-      }
-    ]
-  },
-  {
-    "FirstName": "Дмитро",
-    "LastName": "Коваль",
-    "BirthDate": "2001-01-15",
+    "BirthDate": "2002-07-31",
     "Level": "Магістр",
     "Exams": [
       {
+        "Subject": "Англійська",
+        "Grade": 100,
+        "ExamDate": "2024-12-09"
+      },
+      {
+        "Subject": "Англійська",
+        "Grade": 69,
+        "ExamDate": "2024-11-26"
+      }
+    ]
+  },
+  {
+    "FirstName": "Ігор",
+    "LastName": "Ткаченко",
+    "BirthDate": "2002-05-08",
+    "Level": "Бакалавр",
+    "Exams": [
+      {
+        "Subject": "Англійська",
+        "Grade": 92,
+        "ExamDate": "2024-11-23"
+      },
+      {
         "Subject": "Хімія",
-        "Grade": 77,
-        "ExamDate": "2025-02-22"
+        "Grade": 81,
+        "ExamDate": "2025-03-26"
       },
       {
-        "Subject": "Фізика",
-        "Grade": 82,
-        "ExamDate": "2025-02-03"
+        "Subject": "Хімія",
+        "Grade": 69,
+        "ExamDate": "2024-09-12"
+      }
+    ]
+  },
+  {
+    "FirstName": "Влад",
+    "LastName": "Коваль",
+    "BirthDate": "2004-08-20",
+    "Level": "Спеціаліст",
+    "Exams": [
+      {
+        "Subject": "Програмування",
+        "Grade": 76,
+        "ExamDate": "2025-03-06"
       },
       {
-        "Subject": "Математика",
-        "Grade": 74,
-        "ExamDate": "2025-01-06"
+        "Subject": "Англійська",
+        "Grade": 96,
+        "ExamDate": "2024-08-03"
       }
     ]
   }

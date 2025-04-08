@@ -26,6 +26,19 @@ namespace StudentApp
 
         private void buttonSave_Click(object sender, EventArgs e)
         {
+            
+            if (string.IsNullOrWhiteSpace(textBoxSubject.Text))
+            {
+                MessageBox.Show(
+                    "Будь ласка, заповніть всі поля (назва екзамену не може бути порожньою).",
+                    "Помилка",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning
+                );
+                return;
+            }
+
+            
             Exam.Subject = textBoxSubject.Text;
             Exam.Grade = (int)numericUpDownGrade.Value;
             Exam.ExamDate = dateTimePickerExamDate.Value;
