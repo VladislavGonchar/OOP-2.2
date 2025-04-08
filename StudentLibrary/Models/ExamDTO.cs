@@ -6,7 +6,7 @@ namespace StudentLibrary.Models
     {
         public string Subject { get; set; }
         public int Grade { get; set; }
-        public string ExamDate { get; set; } // JSON-friendly формат
+        public string ExamDate { get; set; } 
 
         public override string ToString() => $"{Subject}: {Grade} ({ExamDate})";
     }

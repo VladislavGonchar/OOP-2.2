@@ -21,3 +21,4 @@ C:\Users\vladg\source\repos\StudentManagerSolution\StudentApp\obj\Debug\net8.0-w
 C:\Users\vladg\source\repos\StudentManagerSolution\StudentApp\obj\Debug\net8.0-windows\StudentApp.pdb
 C:\Users\vladg\source\repos\StudentManagerSolution\StudentApp\obj\Debug\net8.0-windows\StudentApp.genruntimeconfig.cache
 C:\Users\vladg\source\repos\StudentManagerSolution\StudentApp\obj\Debug\net8.0-windows\ref\StudentApp.dll
+C:\Users\vladg\source\repos\StudentManagerSolution\StudentApp\obj\Debug\net8.0-windows\StudentApp.sourcelink.json

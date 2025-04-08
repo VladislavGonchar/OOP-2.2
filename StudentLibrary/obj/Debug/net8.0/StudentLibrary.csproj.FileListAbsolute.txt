@@ -10,3 +10,4 @@ C:\Users\vladg\source\repos\StudentManagerSolution\StudentLibrary\obj\Debug\net8
 C:\Users\vladg\source\repos\StudentManagerSolution\StudentLibrary\obj\Debug\net8.0\refint\StudentLibrary.dll
 C:\Users\vladg\source\repos\StudentManagerSolution\StudentLibrary\obj\Debug\net8.0\StudentLibrary.pdb
 C:\Users\vladg\source\repos\StudentManagerSolution\StudentLibrary\obj\Debug\net8.0\ref\StudentLibrary.dll
+C:\Users\vladg\source\repos\StudentManagerSolution\StudentLibrary\obj\Debug\net8.0\StudentLibrary.sourcelink.json

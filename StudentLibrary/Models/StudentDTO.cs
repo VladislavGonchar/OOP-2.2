@@ -6,7 +6,7 @@ namespace StudentLibrary.Models
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string BirthDate { get; set; } // JSON-friendly формат
+        public string BirthDate { get; set; } 
         public string Level { get; set; }
         public List<ExamDTO> Exams { get; set; } = new List<ExamDTO>();
     }

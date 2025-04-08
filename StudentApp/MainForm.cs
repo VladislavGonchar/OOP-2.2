@@ -9,9 +9,9 @@ namespace StudentApp
     public partial class MainForm : Form
     {
         private List<Student> students = new List<Student>();
-        private List<Student> studentsBackup = new List<Student>(); // Копія початкових даних
-        private bool changesMade = false; // Прапор для відстеження змін
-        private List<Student> temporaryStudents = new List<Student>(); // Тимчасовий список для додавання/видалення
+        private List<Student> studentsBackup = new List<Student>();
+        private bool changesMade = false; 
+        private List<Student> temporaryStudents = new List<Student>(); 
 
         public MainForm()
         {
@@ -22,10 +22,10 @@ namespace StudentApp
         private void LoadStudents()
         {
             students = JsonStorage.Load();
-            studentsBackup = new List<Student>(students); // Копіюємо початкові дані
-            temporaryStudents = new List<Student>(students); // Копія даних для тимчасових змін
+            studentsBackup = new List<Student>(students); 
+            temporaryStudents = new List<Student>(students); 
             listBoxStudents.DataSource = null;
-            listBoxStudents.DataSource = temporaryStudents; // Відображаємо тимчасовий список
+            listBoxStudents.DataSource = temporaryStudents; 
         }
 
         private void buttonAdd_Click(object sender, EventArgs e)
@@ -33,10 +33,10 @@ namespace StudentApp
             StudentForm studentForm = new StudentForm();
             if (studentForm.ShowDialog() == DialogResult.OK)
             {
-                temporaryStudents.Add(studentForm.Student); // Додаємо тимчасово
+                temporaryStudents.Add(studentForm.Student); 
                 changesMade = true;
-                listBoxStudents.DataSource = null; // Скидаємо прив'язку
-                listBoxStudents.DataSource = temporaryStudents; // Оновлюємо список у ListBox
+                listBoxStudents.DataSource = null; 
+                listBoxStudents.DataSource = temporaryStudents; 
             }
         }
 
@@ -47,12 +47,12 @@ namespace StudentApp
                 StudentForm studentForm = new StudentForm(selectedStudent);
                 if (studentForm.ShowDialog() == DialogResult.OK)
                 {
-                    // Оновлюємо тимчасовий список
+                    
                     int index = temporaryStudents.IndexOf(selectedStudent);
                     temporaryStudents[index] = studentForm.Student;
                     changesMade = true;
-                    listBoxStudents.DataSource = null; // Скидаємо прив'язку
-                    listBoxStudents.DataSource = temporaryStudents; // Оновлюємо список у ListBox
+                    listBoxStudents.DataSource = null; 
+                    listBoxStudents.DataSource = temporaryStudents; 
                 }
             }
         }
@@ -65,42 +65,42 @@ namespace StudentApp
 
                 if (result == DialogResult.Yes)
                 {
-                    temporaryStudents.Remove(selectedStudent); // Видаляємо тимчасово
+                    temporaryStudents.Remove(selectedStudent); 
                     changesMade = true;
-                    listBoxStudents.DataSource = null; // Скидаємо прив'язку
-                    listBoxStudents.DataSource = temporaryStudents; // Оновлюємо список у ListBox
+                    listBoxStudents.DataSource = null; 
+                    listBoxStudents.DataSource = temporaryStudents; 
                 }
             }
         }
 
         private void SaveStudents()
         {
-            JsonStorage.Save(temporaryStudents); // Зберігаємо тільки після підтвердження
-            students = new List<Student>(temporaryStudents); // Копіюємо тимчасові зміни в основний список
-            studentsBackup = new List<Student>(students); // Оновлюємо копію початкових даних
+            JsonStorage.Save(temporaryStudents); 
+            students = new List<Student>(temporaryStudents); 
+            studentsBackup = new List<Student>(students); 
         }
 
-        // Перевірка на збереження змін перед закриттям
+        
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
             base.OnFormClosing(e);
 
-            if (changesMade) // Якщо були зміни
+            if (changesMade) 
             {
                 var result = MessageBox.Show("Зберегти зміни?", "Підтвердження", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
 
                 if (result == DialogResult.Yes)
                 {
-                    SaveStudents(); // Зберігаємо зміни
+                    SaveStudents(); 
                 }
                 else if (result == DialogResult.No)
                 {
-                    temporaryStudents = new List<Student>(studentsBackup); // Відновлюємо початкові дані
-                    LoadStudents(); // Оновлюємо відображення
+                    temporaryStudents = new List<Student>(studentsBackup); 
+                    LoadStudents(); 
                 }
                 else if (result == DialogResult.Cancel)
                 {
-                    e.Cancel = true; // Скасовуємо закриття форми
+                    e.Cancel = true; 
                 }
             }
         }

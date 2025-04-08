@@ -12,7 +12,7 @@ namespace StudentApp
         {
             InitializeComponent();
 
-            // Заповнюємо рівні освіти
+            
             comboBoxLevel.Items.Clear();
             comboBoxLevel.Items.AddRange(new[] { "Бакалавр", "Спеціаліст", "Магістр" });
 
@@ -29,7 +29,7 @@ namespace StudentApp
                 Student = new Student();
             }
 
-            UpdateExamList(); // Оновлюємо список іспитів
+            UpdateExamList(); 
         }
 
         private void buttonSave_Click(object sender, EventArgs e)
@@ -81,7 +81,7 @@ namespace StudentApp
                 ExamForm examForm = new ExamForm(selectedExam);
                 if (examForm.ShowDialog() == DialogResult.OK)
                 {
-                    UpdateExamList(); // оновлюємо список
+                    UpdateExamList(); 
                 }
             }
         }

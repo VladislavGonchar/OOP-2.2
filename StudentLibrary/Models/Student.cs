@@ -28,7 +28,7 @@ namespace StudentLibrary.Models
 
         public object Clone()
         {
-            // Глибоке клонування
+            
             return new Student
             {
                 FirstName = this.FirstName,
